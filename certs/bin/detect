@@ -1,0 +1,3 @@
+#!/bin/bash
+echo "AWS Certs Buildpack"
+exit 0

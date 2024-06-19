@@ -1,0 +1,8 @@
+#!/bin/bash
+
+cat << EOF
+---
+config_vars:
+  AMAZON_TRUST_CA_BUNDLE: certs/amazon-trust-ca-bundle.crt
+  RDS_GLOBAL_BUNDLE: certs/rds-global-bundle.pem
+EOF
