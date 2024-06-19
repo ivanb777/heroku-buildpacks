@@ -11,8 +11,6 @@ echo "Copying AWS RDS CA certificates from local directory..."
 CERTS_DIR=$BUILD_DIR/certs
 mkdir -p $CERTS_DIR
 
-# cd ../../
-# ls -l
 # Copy the certificates from the repository to the build directory
 cp certs/amazon-trust-ca-bundle.crt $CERTS_DIR/
 cp certs/rds-global-bundle.pem $CERTS_DIR/
